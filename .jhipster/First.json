@@ -1,0 +1,19 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "branch",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170628043435",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "first",
+    "pagination": "no"
+}

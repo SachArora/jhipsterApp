@@ -1,0 +1,21 @@
+{
+    "sevakApp": {
+        "wannado" : {
+            "home": {
+                "title": "Wannados",
+                "createLabel": "नया Wannado बनाएँ",
+                "createOrEditLabel": "Wannado बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Wannado [identifier: {{ param }}] तैयार है",
+            "updated": "एक Wannado [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Wannado [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Wannado [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Wannado"
+            },
+            "opt1": "Opt 1"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "def",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170627075229",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "hellog2",
+    "pagination": "no"
+}

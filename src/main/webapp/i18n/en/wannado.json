@@ -1,0 +1,21 @@
+{
+    "sevakApp": {
+        "wannado" : {
+            "home": {
+                "title": "Wannados",
+                "createLabel": "Create a new Wannado",
+                "createOrEditLabel": "Create or edit a Wannado"
+            },
+            "created": "A new Wannado is created with identifier {{ param }}",
+            "updated": "A Wannado is updated with identifier {{ param }}",
+            "deleted": "A Wannado is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Wannado {{ id }}?"
+            },
+            "detail": {
+                "title": "Wannado"
+            },
+            "opt1": "Opt 1"
+        }
+    }
+}

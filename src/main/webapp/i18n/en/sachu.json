@@ -1,0 +1,23 @@
+{
+    "sevakApp": {
+        "sachu" : {
+            "home": {
+                "title": "Sachus",
+                "createLabel": "Create a new Sachu",
+                "createOrEditLabel": "Create or edit a Sachu"
+            },
+            "created": "A new Sachu is created with identifier {{ param }}",
+            "updated": "A Sachu is updated with identifier {{ param }}",
+            "deleted": "A Sachu is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Sachu {{ id }}?"
+            },
+            "detail": {
+                "title": "Sachu"
+            },
+            "friend_name": "Friend Name",
+            "friend_from": "Friend From",
+            "roll_no": "Roll No"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "sevakApp": {
+        "hellog" : {
+            "home": {
+                "title": "Hellogs",
+                "createLabel": "नया Hellog बनाएँ",
+                "createOrEditLabel": "Hellog बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Hellog [identifier: {{ param }}] तैयार है",
+            "updated": "एक Hellog [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Hellog [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Hellog [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Hellog"
+            },
+            "abc": "Abc"
+        }
+    }
+}

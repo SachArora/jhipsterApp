@@ -1,0 +1,21 @@
+{
+    "sevakApp": {
+        "hellog" : {
+            "home": {
+                "title": "Hellogs",
+                "createLabel": "Create a new Hellog",
+                "createOrEditLabel": "Create or edit a Hellog"
+            },
+            "created": "A new Hellog is created with identifier {{ param }}",
+            "updated": "A Hellog is updated with identifier {{ param }}",
+            "deleted": "A Hellog is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Hellog {{ id }}?"
+            },
+            "detail": {
+                "title": "Hellog"
+            },
+            "abc": "Abc"
+        }
+    }
+}

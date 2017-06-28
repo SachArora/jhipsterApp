@@ -1,0 +1,22 @@
+{
+    "sevakApp": {
+        "first" : {
+            "home": {
+                "title": "Firsts",
+                "createLabel": "Create a new First",
+                "createOrEditLabel": "Create or edit a First"
+            },
+            "created": "A new First is created with identifier {{ param }}",
+            "updated": "A First is updated with identifier {{ param }}",
+            "deleted": "A First is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete First {{ id }}?"
+            },
+            "detail": {
+                "title": "First"
+            },
+            "name": "Name",
+            "branch": "Branch"
+        }
+    }
+}

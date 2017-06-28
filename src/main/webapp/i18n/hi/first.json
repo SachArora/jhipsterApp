@@ -1,0 +1,22 @@
+{
+    "sevakApp": {
+        "first" : {
+            "home": {
+                "title": "Firsts",
+                "createLabel": "नया First बनाएँ",
+                "createOrEditLabel": "First बनाएँ या संपादित करें"
+            },
+            "created": "एक नया First [identifier: {{ param }}] तैयार है",
+            "updated": "एक First [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "First [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "First [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "First"
+            },
+            "name": "Name",
+            "branch": "Branch"
+        }
+    }
+}

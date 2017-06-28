@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "friend_name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "friend_from",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "roll_no",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170627082943",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "sachu",
+    "pagination": "no"
+}

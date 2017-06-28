@@ -1,0 +1,20 @@
+{
+    "sevakApp": {
+        "myent" : {
+            "home": {
+                "title": "Myents",
+                "createLabel": "Create a new Myent",
+                "createOrEditLabel": "Create or edit a Myent"
+            },
+            "created": "A new Myent is created with identifier {{ param }}",
+            "updated": "A Myent is updated with identifier {{ param }}",
+            "deleted": "A Myent is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Myent {{ id }}?"
+            },
+            "detail": {
+                "title": "Myent"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "sevakApp": {
+        "onemore" : {
+            "home": {
+                "title": "Onemores",
+                "createLabel": "नया Onemore बनाएँ",
+                "createOrEditLabel": "Onemore बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Onemore [identifier: {{ param }}] तैयार है",
+            "updated": "एक Onemore [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Onemore [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Onemore [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Onemore"
+            },
+            "dept": "Dept",
+            "block": "Block"
+        }
+    }
+}

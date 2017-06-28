@@ -1,0 +1,15 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "opt1",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170627111120",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "wannado",
+    "pagination": "no"
+}

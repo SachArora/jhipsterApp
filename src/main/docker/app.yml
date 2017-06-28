@@ -1,0 +1,24 @@
+version: '2'
+services:
+    sevak-app:
+        image: sevak
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATA_CASSANDRA_CONTACTPOINTS=sevak-cassandra
+            - JHIPSTER_SLEEP=30 # gives time for the Cassandra cluster to start and execute the migration scripts
+        ports:
+            - 8080:8080
+    sevak-cassandra:
+        extends:
+            file: cassandra-cluster.yml
+            service: sevak-cassandra
+    sevak-cassandra-node:
+        image: cassandra:3.9
+        environment:
+            - CASSANDRA_SEEDS=sevak-cassandra
+    sevak-cassandra-migration:
+        extends:
+            file: cassandra-migration.yml
+            service: sevak-cassandra-migration
+        environment:
+            - CREATE_KEYSPACE_SCRIPT=create-keyspace-prod.cql
